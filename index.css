@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.home {  
+  max-width: 100%;
+  height: 100vh;                          
+  background-image: url(/img/maun.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.home_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home_item {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.fa-location-dot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  font-size: 30px;
+  color: white;
+  background-color: orange;
+  border-radius: 50px;
+  padding: 20px;
+}
+.home_text {
+  font-family: "Fira Suns", sans-serif;
+  font-size: 35px;
+  color: white;
+  font-style: italic;
+}
+.home_text .text-info {
+  font-weight: bold; 
+}
+.home_heading {
+  font-family: "Gottham", sans-serif;
+  font-size: 90px;
+  color: white;
+  text-indent: 40px;
+  margin-bottom: 40px;
+}
+
+.home_subheading {
+  font-family: "Gottham", sans-serif;
+  font-size: 30px;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.btn {
+  padding: 15px 40px;
+  background-color: orange;
+  border: 2px solid orange;
+  border-radius: 25px;
+  color: white;
+  font-size: 18px;
+  font-family: "Gottham", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  width: 250px;
+} 
+button:hover{
+color: black;
+} 
+
+.about_us {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 90px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.logo-geo {
+  height: 80px;
+  margin-right: 20px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  background-color: orange;
+  border-radius: 50px;
+}
+
+.about-information {
+  font-family: "Fira Sans", sans-serif;
+  color: black;
+  font-size: 72px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-image {
+  display: flex;
+  justify-content: center;
+  max-width: 1280px;
+  margin-bottom: 30px;
+}
+
+.text-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text {
+  max-width: 800px;
+  font-family: "Gotham", sans-serif;
+  color: black;
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 30px; 
+}
+
+.us_pic {
+  max-width: 570px;
+  height: 400px;
+}
+
+.button_container {
+  display: flex;
+  justify-content: flex-start; 
+}
+
+.button_panel, .button_set {
+  background-color: orange;
+  border: 2px solid orange;
+  border-radius: 25px;
+  color: white;
+  font-size: 18px;
+  font-family: "Gotham", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 10px;
+  width: 180px;
+  height: 57px;
+}
+
+button:hover {
+  color: black;
+}
+
+
+.card {  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(93, 65, 27);
+  height: 100vh;
+} 
+.card_iformation {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 80px;
+  width: 350px;
+  border: 1px solid rgba(204, 204, 204, 0.5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  height: 480px;
+}
+.card-image {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+.card__title{
+  color: white;
+  font-size: 70px;
+  font-weight: 700;
+  font-family: "Fira Suns", sans-serif;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.card_text {
+  position: absolute;
+  color: white;
+  top: 190px;
+  left: 15px;
+  font-size: 25px;
+}
+.text_s {
+  font-weight: 700;
+}
+.marked-text {
+  position: absolute;
+  color: black;
+  top: 270px;
+  font-size: 18px;
+}
+ul {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+.marked-text li {
+  margin-bottom: 10px; 
+}
+.card_item {
+  display: flex;
+  gap: 40px;
+}
+.card_button {
+  position: absolute;
+  top: 420px;
+  padding: 15px 40px;
+  background-color: orange;
+  border: 2px solid orange;
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+  font-family: "Gottham", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 25px; 
+  width: 250px;
+}
+button:hover {
+color: black;
+}  
+
+.services {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FDF6EA;
+  height: 110vh;
+}
+.services_row {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.services_item {
+  box-sizing: border-box;
+  display: flex;
+  gap: 30px;
+  width: auto;
+  padding: 10px;
+  /* height: 350px; */
+}
+.services_pic {
+  width: 250px;
+  height: 250px;
+}
+.services-head {
+  text-align: center;
+  font-size: 78px;
+  font-weight: 600;
+  font-family: "Fira Suns", sans-serif;
+  margin-bottom: 100px;
+}
+
+.services_title {
+  color: black;
+  font-size: 24px;
+}
+.services_heading {
+  color:black;
+  font-size: 20px;
+}
+.services_text {
+  color:black;
+  font-size: 26px;
+  max-width: 500px;
+}
+
+.reviews {
+  background-image: url(img/reviews.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 110vh;
+}
+.reviews_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 180px;
+  width: 350px;
+  height: 320px;
+  border: 1px solid rgba(204, 204, 204, 0.5);
+  background-color: #FDF6EA;
+  padding: 20px;
+}
+.reviews-item {
+  display: flex;
+}
+.reviews-heading {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
+.reviews_text {
+  color: black;
+  font-size: 25px;
+}
+.reviews_name {
+  font-weight: bold;
+}
+.star {
+  color: yellow;
+}
+.reviews_pic {
+  width: 70px;
+  margin-right: 20px;
+}
+.reviews_info-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px; 
+  margin-right: 25px;
+  font-size: 25px;
+}
+
+.contact-us {
+  display: flex;
+  align-items: flex-start;
+  padding: 50px;
+  background-color: #504128;
+  gap: 50px; 
+  position: relative;
+}
+.contact-text{
+  position: absolute;
+  color: white;
+  top: 900px;
+  left: 80px;
+  font-weight: 900;
+  font-size: 76px;
+}
+.contact_logo {
+  position: absolute;
+  color: white;
+  top: 800px;
+  left: 80px;
+  font-size: 30px;
+  padding: 20px;
+}
+.contact_text{
+  position: absolute;
+  color: white;
+  top: 800px;
+  left: 150px;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 20px;
+}
+.contact-pic {
+  width: 1200px;
+  height: 970px; 
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  color: white;
+}
+.contact {
+  margin-bottom: 50px; 
+  font-size: 30px;
+}
+.heading_address, .heading_Contact {
+  font-weight: bold;
+}
+.text_address, .text_Contact {
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .home {
+    max-width: 100%;
+  }
+  .about_us {
+    max-width: 100%;
+  }
+  .about-information {
+    font-size: 30px;
+  }
+  .about-text {
+    font-size: 20px;
+  }
+  .button_panel {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .home {
+    max-width: 100%;
+  }
+  .home_text {
+  font-size: 20px;
+  }
+  .home_heading {
+    font-size: 40px;
+  }
+  .home_subheading {
+    font-size: 25px;
+  }
+  .button {
+    width: 150px;
+  }
+  .fa-location-dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8px;
+    width: 8px;
+    font-size: 15px;
+    color: white;
+    background-color: orange;
+    border-radius: 50px;
+    padding: 15px;
+  }
+}
+
